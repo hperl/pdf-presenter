@@ -34,6 +34,7 @@
 		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2EF58E5312F87A18008EB121 /* German */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = German; path = German.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4E43F460119A99AF00262785 /* SyncronizedPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncronizedPDFView.h; sourceTree = "<group>"; };
 		4E43F461119A99AF00262785 /* SyncronizedPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncronizedPDFView.m; sourceTree = "<group>"; };
 		4E43F51B119AF52100262785 /* PreviewPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewPDFView.h; sourceTree = "<group>"; };
@@ -174,7 +175,14 @@
 			isa = PBXProject;
 			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "PDFPresenter" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* PDFPresenter */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +243,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				1DDD582B0DA1D0D100B32029 /* English */,
+				2EF58E5312F87A18008EB121 /* German */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -261,6 +270,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = PDFPresenter_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "PDFPresenter-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = "PDF Presenter";
