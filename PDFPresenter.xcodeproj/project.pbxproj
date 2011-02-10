@@ -14,6 +14,9 @@
 		2E177E661304088300BA1CA0 /* AppleRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E177E611304088300BA1CA0 /* AppleRemote.m */; };
 		2E177E671304088300BA1CA0 /* MultiClickRemoteBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E177E631304088300BA1CA0 /* MultiClickRemoteBehavior.m */; };
 		2E177E6B1304224500BA1CA0 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E177E6A1304224400BA1CA0 /* IOKit.framework */; };
+		2E177E6D1304360600BA1CA0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2E177E6C1304360600BA1CA0 /* Credits.rtf */; };
+		2E177E6F130436C500BA1CA0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2E177E6E130436C500BA1CA0 /* LICENSE */; };
+		2E177E711304395500BA1CA0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2E177E701304395500BA1CA0 /* README.md */; };
 		2E94D7A31302F561009CBF8E /* TimerWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E94D7A21302F561009CBF8E /* TimerWindowController.m */; };
 		2E94D7A61302F5D7009CBF8E /* TimerWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E94D7A51302F5D7009CBF8E /* TimerWindow.xib */; };
 		2EDBE87B1303E30B00C28FA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDBE87A1303E30B00C28FA9 /* AppDelegate.m */; };
@@ -22,7 +25,6 @@
 		4ED23BE31195C0D50098B479 /* FullscreenWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED23BE21195C0D50098B479 /* FullscreenWindow.m */; };
 		4EF3E35A119323B500F79E6D /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3E359119323B500F79E6D /* MainWindowController.m */; };
 		4EF3E35F1193249500F79E6D /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF3E35E1193249500F79E6D /* Quartz.framework */; };
-		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
 		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
 		8D15AC310486D014006FF6A4 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */; settings = {ATTRIBUTES = (); }; };
 		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -38,7 +40,6 @@
 		2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
 		2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
 		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		2E177E5C1304088300BA1CA0 /* RemoteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteControl.h; sourceTree = "<group>"; };
@@ -50,6 +51,9 @@
 		2E177E621304088300BA1CA0 /* MultiClickRemoteBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiClickRemoteBehavior.h; sourceTree = "<group>"; };
 		2E177E631304088300BA1CA0 /* MultiClickRemoteBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiClickRemoteBehavior.m; sourceTree = "<group>"; };
 		2E177E6A1304224400BA1CA0 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		2E177E6C1304360600BA1CA0 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		2E177E6E130436C500BA1CA0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2E177E701304395500BA1CA0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		2E94D7A11302F561009CBF8E /* TimerWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerWindowController.h; sourceTree = "<group>"; };
 		2E94D7A21302F561009CBF8E /* TimerWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerWindowController.m; sourceTree = "<group>"; };
 		2E94D7A51302F5D7009CBF8E /* TimerWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerWindow.xib; sourceTree = "<group>"; };
@@ -149,12 +153,14 @@
 		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				2E177E701304395500BA1CA0 /* README.md */,
 				8D15AC360486D014006FF6A4 /* PDFPresenter-Info.plist */,
 				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
 				1DDD58280DA1D0D100B32029 /* MyDocument.xib */,
 				1DDD582A0DA1D0D100B32029 /* MainMenu.xib */,
 				2E94D7A51302F5D7009CBF8E /* TimerWindow.xib */,
+				2E177E6C1304360600BA1CA0 /* Credits.rtf */,
+				2E177E6E130436C500BA1CA0 /* LICENSE */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -257,11 +263,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
 				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
 				1DDD582C0DA1D0D100B32029 /* MyDocument.xib in Resources */,
 				1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */,
 				2E94D7A61302F5D7009CBF8E /* TimerWindow.xib in Resources */,
+				2E177E6D1304360600BA1CA0 /* Credits.rtf in Resources */,
+				2E177E6F130436C500BA1CA0 /* LICENSE in Resources */,
+				2E177E711304395500BA1CA0 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,14 +320,6 @@
 				2EF58E5312F87A18008EB121 /* German */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2A37F4BAFDCFA73011CA2CEA /* English */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
