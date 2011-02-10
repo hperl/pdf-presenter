@@ -15,7 +15,6 @@
 	NSNotificationCenter	*nc;
 	
 	// PDF views
-//	PDFView					*mainPdfView;
 	SyncronizedPDFView		*fullscreenPdfView;
 	
 	// fullscreen
@@ -31,5 +30,6 @@
 - (IBAction)toggleFullscreen:(id)sender;
 - (IBAction)previousPage:(id)sender;
 - (IBAction)nextPage:(id)sender;
+- (IBAction)showPreviewWindow:(id)sender;
 
 @end

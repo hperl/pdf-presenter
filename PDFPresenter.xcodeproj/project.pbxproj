@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		1DDD582C0DA1D0D100B32029 /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58280DA1D0D100B32029 /* MyDocument.xib */; };
 		1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
+		2E177E641304088300BA1CA0 /* RemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E177E5D1304088300BA1CA0 /* RemoteControl.m */; };
+		2E177E651304088300BA1CA0 /* HIDRemoteControlDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E177E5F1304088300BA1CA0 /* HIDRemoteControlDevice.m */; };
+		2E177E661304088300BA1CA0 /* AppleRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E177E611304088300BA1CA0 /* AppleRemote.m */; };
+		2E177E671304088300BA1CA0 /* MultiClickRemoteBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E177E631304088300BA1CA0 /* MultiClickRemoteBehavior.m */; };
+		2E177E6B1304224500BA1CA0 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E177E6A1304224400BA1CA0 /* IOKit.framework */; };
+		2E94D7A31302F561009CBF8E /* TimerWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E94D7A21302F561009CBF8E /* TimerWindowController.m */; };
+		2E94D7A61302F5D7009CBF8E /* TimerWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E94D7A51302F5D7009CBF8E /* TimerWindow.xib */; };
+		2EDBE87B1303E30B00C28FA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDBE87A1303E30B00C28FA9 /* AppDelegate.m */; };
 		4E43F462119A99AF00262785 /* SyncronizedPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E43F461119A99AF00262785 /* SyncronizedPDFView.m */; };
 		4E43F51D119AF52100262785 /* PreviewPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E43F51C119AF52100262785 /* PreviewPDFView.m */; };
 		4ED23BE31195C0D50098B479 /* FullscreenWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED23BE21195C0D50098B479 /* FullscreenWindow.m */; };
@@ -26,7 +34,6 @@
 		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		1DDD58290DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MyDocument.xib; sourceTree = "<group>"; };
-		1DDD582B0DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		2564AD2C0F5327BB00F57823 /* PDFPresenter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFPresenter_Prefix.pch; sourceTree = "<group>"; };
 		2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
 		2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
@@ -34,6 +41,20 @@
 		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2E177E5C1304088300BA1CA0 /* RemoteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteControl.h; sourceTree = "<group>"; };
+		2E177E5D1304088300BA1CA0 /* RemoteControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteControl.m; sourceTree = "<group>"; };
+		2E177E5E1304088300BA1CA0 /* HIDRemoteControlDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDRemoteControlDevice.h; sourceTree = "<group>"; };
+		2E177E5F1304088300BA1CA0 /* HIDRemoteControlDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDRemoteControlDevice.m; sourceTree = "<group>"; };
+		2E177E601304088300BA1CA0 /* AppleRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleRemote.h; sourceTree = "<group>"; };
+		2E177E611304088300BA1CA0 /* AppleRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleRemote.m; sourceTree = "<group>"; };
+		2E177E621304088300BA1CA0 /* MultiClickRemoteBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiClickRemoteBehavior.h; sourceTree = "<group>"; };
+		2E177E631304088300BA1CA0 /* MultiClickRemoteBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiClickRemoteBehavior.m; sourceTree = "<group>"; };
+		2E177E6A1304224400BA1CA0 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		2E94D7A11302F561009CBF8E /* TimerWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerWindowController.h; sourceTree = "<group>"; };
+		2E94D7A21302F561009CBF8E /* TimerWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerWindowController.m; sourceTree = "<group>"; };
+		2E94D7A51302F5D7009CBF8E /* TimerWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerWindow.xib; sourceTree = "<group>"; };
+		2EDBE8791303E30B00C28FA9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2EDBE87A1303E30B00C28FA9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2EF58E5312F87A18008EB121 /* German */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = German; path = German.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4E43F460119A99AF00262785 /* SyncronizedPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncronizedPDFView.h; sourceTree = "<group>"; };
 		4E43F461119A99AF00262785 /* SyncronizedPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncronizedPDFView.m; sourceTree = "<group>"; };
@@ -53,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E177E6B1304224500BA1CA0 /* IOKit.framework in Frameworks */,
 				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
 				4EF3E35F1193249500F79E6D /* Quartz.framework in Frameworks */,
 			);
@@ -91,6 +113,7 @@
 		2A37F4AAFDCFA73011CA2CEA /* PDFPresenter */ = {
 			isa = PBXGroup;
 			children = (
+				2E177E6A1304224400BA1CA0 /* IOKit.framework */,
 				2A37F4ABFDCFA73011CA2CEA /* Classes */,
 				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
 				2A37F4B8FDCFA73011CA2CEA /* Resources */,
@@ -103,16 +126,12 @@
 		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4E43F460119A99AF00262785 /* SyncronizedPDFView.h */,
-				4E43F461119A99AF00262785 /* SyncronizedPDFView.m */,
-				4E43F51B119AF52100262785 /* PreviewPDFView.h */,
-				4E43F51C119AF52100262785 /* PreviewPDFView.m */,
-				4EF3E358119323B500F79E6D /* MainWindowController.h */,
-				4EF3E359119323B500F79E6D /* MainWindowController.m */,
+				2EDBE8791303E30B00C28FA9 /* AppDelegate.h */,
+				2EDBE87A1303E30B00C28FA9 /* AppDelegate.m */,
 				2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */,
 				2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */,
-				4ED23BE11195C0D50098B479 /* FullscreenWindow.h */,
-				4ED23BE21195C0D50098B479 /* FullscreenWindow.m */,
+				2E177E68130408AA00BA1CA0 /* Controllers */,
+				2E177E69130408C600BA1CA0 /* Views */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -120,6 +139,7 @@
 		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				2E177E5B1304086800BA1CA0 /* Remote Control */,
 				2564AD2C0F5327BB00F57823 /* PDFPresenter_Prefix.pch */,
 				2A37F4B0FDCFA73011CA2CEA /* main.m */,
 			);
@@ -134,6 +154,7 @@
 				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
 				1DDD58280DA1D0D100B32029 /* MyDocument.xib */,
 				1DDD582A0DA1D0D100B32029 /* MainMenu.xib */,
+				2E94D7A51302F5D7009CBF8E /* TimerWindow.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -145,6 +166,45 @@
 				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E177E5B1304086800BA1CA0 /* Remote Control */ = {
+			isa = PBXGroup;
+			children = (
+				2E177E5C1304088300BA1CA0 /* RemoteControl.h */,
+				2E177E5D1304088300BA1CA0 /* RemoteControl.m */,
+				2E177E5E1304088300BA1CA0 /* HIDRemoteControlDevice.h */,
+				2E177E5F1304088300BA1CA0 /* HIDRemoteControlDevice.m */,
+				2E177E601304088300BA1CA0 /* AppleRemote.h */,
+				2E177E611304088300BA1CA0 /* AppleRemote.m */,
+				2E177E621304088300BA1CA0 /* MultiClickRemoteBehavior.h */,
+				2E177E631304088300BA1CA0 /* MultiClickRemoteBehavior.m */,
+			);
+			name = "Remote Control";
+			sourceTree = "<group>";
+		};
+		2E177E68130408AA00BA1CA0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4EF3E358119323B500F79E6D /* MainWindowController.h */,
+				4EF3E359119323B500F79E6D /* MainWindowController.m */,
+				2E94D7A11302F561009CBF8E /* TimerWindowController.h */,
+				2E94D7A21302F561009CBF8E /* TimerWindowController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2E177E69130408C600BA1CA0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E43F460119A99AF00262785 /* SyncronizedPDFView.h */,
+				4E43F461119A99AF00262785 /* SyncronizedPDFView.m */,
+				4E43F51B119AF52100262785 /* PreviewPDFView.h */,
+				4E43F51C119AF52100262785 /* PreviewPDFView.m */,
+				4ED23BE11195C0D50098B479 /* FullscreenWindow.h */,
+				4ED23BE21195C0D50098B479 /* FullscreenWindow.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +261,7 @@
 				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
 				1DDD582C0DA1D0D100B32029 /* MyDocument.xib in Resources */,
 				1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */,
+				2E94D7A61302F5D7009CBF8E /* TimerWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +278,12 @@
 				4ED23BE31195C0D50098B479 /* FullscreenWindow.m in Sources */,
 				4E43F462119A99AF00262785 /* SyncronizedPDFView.m in Sources */,
 				4E43F51D119AF52100262785 /* PreviewPDFView.m in Sources */,
+				2E94D7A31302F561009CBF8E /* TimerWindowController.m in Sources */,
+				2EDBE87B1303E30B00C28FA9 /* AppDelegate.m in Sources */,
+				2E177E641304088300BA1CA0 /* RemoteControl.m in Sources */,
+				2E177E651304088300BA1CA0 /* HIDRemoteControlDevice.m in Sources */,
+				2E177E661304088300BA1CA0 /* AppleRemote.m in Sources */,
+				2E177E671304088300BA1CA0 /* MultiClickRemoteBehavior.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +309,6 @@
 		1DDD582A0DA1D0D100B32029 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1DDD582B0DA1D0D100B32029 /* English */,
 				2EF58E5312F87A18008EB121 /* German */,
 			);
 			name = MainMenu.xib;

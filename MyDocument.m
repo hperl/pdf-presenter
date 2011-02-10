@@ -7,8 +7,9 @@
 //
 
 #import "MyDocument.h"
-#import "MainWindowController.h"
 #import "FullscreenWindow.h"
+#import "MainWindowController.h"
+#import "TimerWindowController.h"
 
 @implementation MyDocument
 
@@ -56,14 +57,7 @@
 
 - (void) makeWindowControllers
 {
-	MainWindowController	*controller;
-	
-	// Create controller.
-	controller = [[MainWindowController alloc] initWithWindowNibName: [self windowNibName]];
-	[self addWindowController: controller];
-	
-	// Done.
-	[controller release];
+	[self addWindowController:[[[MainWindowController alloc] initWithWindowNibName:[self windowNibName]] autorelease]];
 }
 
 #pragma mark fullscreen
@@ -81,7 +75,7 @@
 				   name: NSApplicationDidChangeScreenParametersNotification object:NSApp];
 		
 		BOOL multihead = [[NSScreen screens] count] > 1 ? YES : NO;
-		// Fullscreen auf den letzten screen setzen (meinst: Beamer)
+		// Fullscreen auf den letzten screen setzen (=> Beamer)
 		fullscreenScreen = [[[NSScreen screens] lastObject] retain];
 		NSRect screenRect = [fullscreenScreen frame];
 		
@@ -155,13 +149,22 @@
 - (IBAction)nextPage:(id)sender
 {
 	[mainPdfView goToNextPage:sender];
-	[nc postNotificationName:@"PDFPageChanged" object:mainPdfView];
 }
 
 - (IBAction)previousPage:(id)sender
 {
 	[mainPdfView goToPreviousPage:sender];
-	[nc postNotificationName:@"PDFPageChanged" object:mainPdfView];
+}
+
+#pragma mark Utility Windows	
+- (IBAction)showPreviewWindow:(id)sender
+{
+//	for (NSWindowController* controller in [self windowControllers]) {
+//		if ([controller isKindOfClass:[MainWindowController class]]) {
+//			[controller showPreviewWindow:self];
+//			break;
+//		}
+//	}
 }
 
 @end

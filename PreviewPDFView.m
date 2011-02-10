@@ -17,7 +17,7 @@
 	NSLog(@"Got Notified! (Preview)");
 	if (reference != self) {
 		[self goToPage:[reference currentPage]];
-		[self goToNextPage:self];
+		[self goToNextPage:nil];
 	}
 }
 

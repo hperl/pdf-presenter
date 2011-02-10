@@ -12,21 +12,12 @@
 #import "PreviewPDFView.h"
 
 @interface MainWindowController : NSWindowController {
-	IBOutlet SyncronizedPDFView *mainPDFView;
-	IBOutlet PreviewPDFView *previewPDFView;
-	IBOutlet NSTextField *timer;
-	IBOutlet NSImageView *resetButton;
-	IBOutlet NSButton *startStopButton;
-	NSTimer *stopwatchTimer;
-	NSDate *startDate;
+	IBOutlet SyncronizedPDFView* mainPDFView;
+	IBOutlet PreviewPDFView* previewPDFView;
+    IBOutlet NSPanel* previewWindow;
 }
 - (void)updateStatusbar:(NSNotification *)notification;
-
-- (IBAction)startStopTimer:(id)sender;
-- (IBAction)resetTimer:(id)sender;
+- (IBAction) showPreviewWindow:(id)sender;
 
 @property(assign) NSString *currentAndTotalPages;
-@property(assign) NSTimeInterval currentInterval;
 @end
-
-
