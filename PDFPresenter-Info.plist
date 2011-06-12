@@ -38,7 +38,7 @@
 		</dict>
 	</array>
 	<key>CFBundleExecutable</key>
-	<string>PDF Presenter</string>
+	<string>PDFPresenter</string>
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>

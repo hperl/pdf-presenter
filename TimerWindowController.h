@@ -10,9 +10,11 @@
 
 
 @interface TimerWindowController : NSWindowController {
+    @private
 	IBOutlet NSTextField *timer;
 	NSTimer *stopwatchTimer;
 	NSDate *startDate;
+    NSTimeInterval currentInterval;
 }
 
 - (IBAction)startStopTimer:(id)sender;

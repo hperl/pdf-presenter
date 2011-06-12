@@ -12,6 +12,7 @@
 #import "SyncronizedPDFView.h"
 
 @interface MyDocument : NSDocument {
+    @private
 	NSNotificationCenter	*nc;
 	
 	// PDF views
@@ -23,6 +24,8 @@
 	NSWindowController		*fullscreenWindowController;
 	NSScreen				*fullscreenScreen;
 	NSApplicationPresentationOptions savedPresentationOptions;
+    
+    PDFView *mainPdfView;
 }
 
 @property (assign) PDFView *mainPdfView;

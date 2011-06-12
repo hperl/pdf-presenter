@@ -15,6 +15,9 @@
 	IBOutlet SyncronizedPDFView* mainPDFView;
 	IBOutlet PreviewPDFView* previewPDFView;
     IBOutlet NSPanel* previewWindow;
+    
+    @private
+    NSString *currentAndTotalPages;
 }
 - (void)updateStatusbar:(NSNotification *)notification;
 - (IBAction) showPreviewWindow:(id)sender;

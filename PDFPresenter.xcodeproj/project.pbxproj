@@ -339,7 +339,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "PDFPresenter-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				PRODUCT_NAME = "PDF Presenter";
+				PRODUCT_NAME = PDFPresenter;
 			};
 			name = Debug;
 		};
