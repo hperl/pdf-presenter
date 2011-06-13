@@ -37,7 +37,7 @@
 {
 	int totalPages = [[mainPDFView document] pageCount];
 	int currentPage = [[mainPDFView document] indexForPage:[mainPDFView currentPage]] + 1;
-	self.currentAndTotalPages = [NSString stringWithFormat:@"Seite %i von %i", currentPage, totalPages];
+	self.currentAndTotalPages = [NSString stringWithFormat:NSLocalizedString(@"Page %i of %i", @"status bar text"), currentPage, totalPages];
 }
 
 - (IBAction) showPreviewWindow:(id)sender

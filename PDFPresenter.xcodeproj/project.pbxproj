@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DDD582C0DA1D0D100B32029 /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58280DA1D0D100B32029 /* MyDocument.xib */; };
-		1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
 		2E177E641304088300BA1CA0 /* RemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E177E5D1304088300BA1CA0 /* RemoteControl.m */; };
 		2E177E651304088300BA1CA0 /* HIDRemoteControlDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E177E5F1304088300BA1CA0 /* HIDRemoteControlDevice.m */; };
 		2E177E661304088300BA1CA0 /* AppleRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E177E611304088300BA1CA0 /* AppleRemote.m */; };
@@ -18,24 +16,26 @@
 		2E177E6F130436C500BA1CA0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2E177E6E130436C500BA1CA0 /* LICENSE */; };
 		2E177E711304395500BA1CA0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2E177E701304395500BA1CA0 /* README.md */; };
 		2E94D7A31302F561009CBF8E /* TimerWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E94D7A21302F561009CBF8E /* TimerWindowController.m */; };
-		2E94D7A61302F5D7009CBF8E /* TimerWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E94D7A51302F5D7009CBF8E /* TimerWindow.xib */; };
 		2EDBE87B1303E30B00C28FA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDBE87A1303E30B00C28FA9 /* AppDelegate.m */; };
+		2EFE234813A614BF00CC7661 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EFE234913A614BF00CC7661 /* InfoPlist.strings */; };
+		2EFE234C13A6163900CC7661 /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EFE234E13A6163900CC7661 /* MyDocument.xib */; };
+		2EFE235013A618C000CC7661 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EFE235213A618C000CC7661 /* MainMenu.xib */; };
+		2EFE235413A619F100CC7661 /* TimerWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EFE235613A619F100CC7661 /* TimerWindow.xib */; };
+		2EFE235C13A61B8200CC7661 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EFE235A13A61B8200CC7661 /* Localizable.strings */; };
+		2EFE235E13A61B9800CC7661 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EFE235A13A61B8200CC7661 /* Localizable.strings */; };
 		4E43F462119A99AF00262785 /* SyncronizedPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E43F461119A99AF00262785 /* SyncronizedPDFView.m */; };
 		4E43F51D119AF52100262785 /* PreviewPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E43F51C119AF52100262785 /* PreviewPDFView.m */; };
 		4ED23BE31195C0D50098B479 /* FullscreenWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED23BE21195C0D50098B479 /* FullscreenWindow.m */; };
 		4EF3E35A119323B500F79E6D /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3E359119323B500F79E6D /* MainWindowController.m */; };
 		4EF3E35F1193249500F79E6D /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF3E35E1193249500F79E6D /* Quartz.framework */; };
-		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
 		8D15AC310486D014006FF6A4 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */; settings = {ATTRIBUTES = (); }; };
 		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
-		1DDD58290DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MyDocument.xib; sourceTree = "<group>"; };
 		2564AD2C0F5327BB00F57823 /* PDFPresenter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFPresenter_Prefix.pch; sourceTree = "<group>"; };
 		2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
 		2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
@@ -56,17 +56,24 @@
 		2E177E701304395500BA1CA0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		2E94D7A11302F561009CBF8E /* TimerWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerWindowController.h; sourceTree = "<group>"; };
 		2E94D7A21302F561009CBF8E /* TimerWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerWindowController.m; sourceTree = "<group>"; };
-		2E94D7A51302F5D7009CBF8E /* TimerWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerWindow.xib; sourceTree = "<group>"; };
 		2EDBE8791303E30B00C28FA9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2EDBE87A1303E30B00C28FA9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2EF58E5312F87A18008EB121 /* German */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = German; path = German.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2EFE234913A614BF00CC7661 /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		2EFE234D13A6163900CC7661 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		2EFE234F13A6176700CC7661 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		2EFE235113A618C000CC7661 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2EFE235313A618CA00CC7661 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2EFE235513A619F100CC7661 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TimerWindow.xib; sourceTree = "<group>"; };
+		2EFE235913A61A3100CC7661 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/TimerWindow.xib; sourceTree = "<group>"; };
+		2EFE235B13A61B8200CC7661 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2EFE235D13A61B9800CC7661 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4E43F460119A99AF00262785 /* SyncronizedPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncronizedPDFView.h; sourceTree = "<group>"; };
 		4E43F461119A99AF00262785 /* SyncronizedPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncronizedPDFView.m; sourceTree = "<group>"; };
 		4E43F51B119AF52100262785 /* PreviewPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewPDFView.h; sourceTree = "<group>"; };
 		4E43F51C119AF52100262785 /* PreviewPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewPDFView.m; sourceTree = "<group>"; };
 		4ED23BE11195C0D50098B479 /* FullscreenWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullscreenWindow.h; sourceTree = "<group>"; };
 		4ED23BE21195C0D50098B479 /* FullscreenWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullscreenWindow.m; sourceTree = "<group>"; };
-		4EE3EA1F119B2E8600A11CCA /* PDF Presenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDF Presenter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE3EA1F119B2E8600A11CCA /* PDFPresenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFPresenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EF3E358119323B500F79E6D /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
 		4EF3E359119323B500F79E6D /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
 		4EF3E35E1193249500F79E6D /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
@@ -109,7 +116,7 @@
 		19C28FB0FE9D524F11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4EE3EA1F119B2E8600A11CCA /* PDF Presenter.app */,
+				4EE3EA1F119B2E8600A11CCA /* PDFPresenter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,10 +162,11 @@
 			children = (
 				2E177E701304395500BA1CA0 /* README.md */,
 				8D15AC360486D014006FF6A4 /* PDFPresenter-Info.plist */,
-				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
-				1DDD58280DA1D0D100B32029 /* MyDocument.xib */,
-				1DDD582A0DA1D0D100B32029 /* MainMenu.xib */,
-				2E94D7A51302F5D7009CBF8E /* TimerWindow.xib */,
+				2EFE235A13A61B8200CC7661 /* Localizable.strings */,
+				2EFE234913A614BF00CC7661 /* InfoPlist.strings */,
+				2EFE234E13A6163900CC7661 /* MyDocument.xib */,
+				2EFE235213A618C000CC7661 /* MainMenu.xib */,
+				2EFE235613A619F100CC7661 /* TimerWindow.xib */,
 				2E177E6C1304360600BA1CA0 /* Credits.rtf */,
 				2E177E6E130436C500BA1CA0 /* LICENSE */,
 			);
@@ -231,7 +239,7 @@
 			name = "PDF Presenter";
 			productInstallPath = "$(HOME)/Applications";
 			productName = PDFPresenter;
-			productReference = 4EE3EA1F119B2E8600A11CCA /* PDF Presenter.app */;
+			productReference = 4EE3EA1F119B2E8600A11CCA /* PDFPresenter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -248,6 +256,8 @@
 				Japanese,
 				French,
 				German,
+				de,
+				en,
 			);
 			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* PDFPresenter */;
 			projectDirPath = "";
@@ -263,13 +273,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
-				1DDD582C0DA1D0D100B32029 /* MyDocument.xib in Resources */,
-				1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */,
-				2E94D7A61302F5D7009CBF8E /* TimerWindow.xib in Resources */,
+				2EFE234813A614BF00CC7661 /* InfoPlist.strings in Resources */,
+				2EFE234C13A6163900CC7661 /* MyDocument.xib in Resources */,
+				2EFE235013A618C000CC7661 /* MainMenu.xib in Resources */,
+				2EFE235413A619F100CC7661 /* TimerWindow.xib in Resources */,
 				2E177E6D1304360600BA1CA0 /* Credits.rtf in Resources */,
 				2E177E6F130436C500BA1CA0 /* LICENSE in Resources */,
 				2E177E711304395500BA1CA0 /* README.md in Resources */,
+				2EFE235C13A61B8200CC7661 /* Localizable.strings in Resources */,
+				2EFE235E13A61B9800CC7661 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,28 +310,40 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+		2EFE234E13A6163900CC7661 /* MyDocument.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C1660FE840EACC02AAC07 /* English */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		1DDD58280DA1D0D100B32029 /* MyDocument.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1DDD58290DA1D0D100B32029 /* English */,
+				2EFE234D13A6163900CC7661 /* en */,
+				2EFE234F13A6176700CC7661 /* de */,
 			);
 			name = MyDocument.xib;
 			sourceTree = "<group>";
 		};
-		1DDD582A0DA1D0D100B32029 /* MainMenu.xib */ = {
+		2EFE235213A618C000CC7661 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2EF58E5312F87A18008EB121 /* German */,
+				2EFE235113A618C000CC7661 /* en */,
+				2EFE235313A618CA00CC7661 /* de */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2EFE235613A619F100CC7661 /* TimerWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EFE235513A619F100CC7661 /* en */,
+				2EFE235913A61A3100CC7661 /* de */,
+			);
+			name = TimerWindow.xib;
+			sourceTree = "<group>";
+		};
+		2EFE235A13A61B8200CC7661 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EFE235B13A61B8200CC7661 /* en */,
+				2EFE235D13A61B9800CC7661 /* de */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
