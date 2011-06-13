@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>PDFPresenter.dmg.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>2E4E722813A62C2300E4C963</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>8D15AC270486D014006FF6A4</key>
 		<dict>
 			<key>primary</key>

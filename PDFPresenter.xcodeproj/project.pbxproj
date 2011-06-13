@@ -6,6 +6,20 @@
 	objectVersion = 45;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		2E4E722813A62C2300E4C963 /* PDFPresenter.dmg */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2E4E722B13A62C2300E4C963 /* Build configuration list for PBXAggregateTarget "PDFPresenter.dmg" */;
+			buildPhases = (
+				2E4E722D13A62C7F00E4C963 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = PDFPresenter.dmg;
+			productName = PDFPresenter.dmg;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		2E177E641304088300BA1CA0 /* RemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E177E5D1304088300BA1CA0 /* RemoteControl.m */; };
 		2E177E651304088300BA1CA0 /* HIDRemoteControlDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E177E5F1304088300BA1CA0 /* HIDRemoteControlDevice.m */; };
@@ -264,6 +278,7 @@
 			projectRoot = "";
 			targets = (
 				8D15AC270486D014006FF6A4 /* PDF Presenter */,
+				2E4E722813A62C2300E4C963 /* PDFPresenter.dmg */,
 			);
 		};
 /* End PBXProject section */
@@ -286,6 +301,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E4E722D13A62C7F00E4C963 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/PDFPresenter.dmg",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "app=\"$BUILT_PRODUCTS_DIR/PDFPresenter.app\"\ndmg=\"$BUILT_PRODUCTS_DIR/PDFPresenter.dmg\"\n\nif $(test -f $dmg); then\n    rm $dmg\nfi\nhdiutil create -srcfolder \"$app\" \"$dmg\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D15AC300486D014006FF6A4 /* Sources */ = {
@@ -349,6 +382,21 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2E4E722913A62C2300E4C963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E4E722A13A62C2300E4C963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		C05733C808A9546B00998B17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -410,6 +458,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2E4E722B13A62C2300E4C963 /* Build configuration list for PBXAggregateTarget "PDFPresenter.dmg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4E722913A62C2300E4C963 /* Debug */,
+				2E4E722A13A62C2300E4C963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "PDF Presenter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
